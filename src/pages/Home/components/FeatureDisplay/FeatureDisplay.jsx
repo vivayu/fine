@@ -25,27 +25,6 @@ const data = [
     imgUrl:
       'https://img.alicdn.com/tfs/TB1K3JmgOqAXuNjy1XdXXaYcVXa-450-450.png',
   },
-  {
-    title: '洛杉矶 OVZ-VPS',
-    description:
-      '10G 磁盘空间；1/512M CPU/内存；50M 带宽；1独立 IPV4；2G DDOS防御；300G 流量；免费安装管理面板',
-    imgUrl:
-      'https://img.alicdn.com/tfs/TB124gfiY_I8KJjy1XaXXbsxpXa-450-453.png',
-  },
-  {
-    title: '洛杉矶 KVM-VPS',
-    description:
-      '15G 磁盘空间；1/1024M CPU/内存；50M 带宽；1独立 IPV4；2G DDOS防御；500G 流量；免费安装管理面板',
-    imgUrl:
-      'https://img.alicdn.com/tfs/TB1s4T4i2DH8KJjy1XcXXcpdXXa-450-450.png',
-  },
-  {
-    title: '云电商系统',
-    description:
-      '微信商城/PC商城（增值）；会员粉丝动态管理；全网订单处理；智慧仓库管理；电脑、平板、手机，多终端收银；自动售货机交互屏多种支撑硬件；终身免费技术指导',
-    imgUrl:
-      'https://img.alicdn.com/tfs/TB1oEe3i8fH8KJjy1XbXXbLdXXa-453-453.png',
-  },
 ];
 
 export default class FeatureDisplay extends Component {
@@ -63,8 +42,10 @@ export default class FeatureDisplay extends Component {
   render() {
     return (
       <div className="feature-display" style={styles.container}>
-        <div style={styles.items}>
-          <Row gutter="20" wrap>
+
+        {/*<div style={styles.items}>*/}
+
+          <Row gutter="0" wrap>
             {data.map((item, index) => {
               return (
                 <Col key={index} xxs="24" s="12" l="8">
@@ -77,7 +58,9 @@ export default class FeatureDisplay extends Component {
               );
             })}
           </Row>
-        </div>
+
+        {/*</div>*/}
+
       </div>
     );
   }
@@ -88,7 +71,7 @@ const styles = {
     width: '100%',
     maxWidth: '1080px',
     margin: '0 auto',
-    padding: '0 80px',
+    padding: '0 0px',
   },
   items: {
     display: 'flex',

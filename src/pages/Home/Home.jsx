@@ -1,15 +1,26 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import SimpleSlider from '../../components/SimpleSlider';
+import BasicTab from './components/BasicTab';
+import FeatureDisplay from './components/FeatureDisplay';
+import UserTrafficStastistics from './components/UserTrafficStastistics';
 
 export default class Home extends Component {
-  static displayName = 'Home';
+    static displayName = 'Home';
 
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+    constructor(props) {
+        super(props);
+        this.state = {};
+    }
 
-  render() {
-    console.log('fine start');
-    return <div className="home-page" />;
-  }
+    render() {
+        return (
+            <div className="home-page">
+                <SimpleSlider />
+                {/*<BasicTab/>*/}
+                <FeatureDisplay />
+                <UserTrafficStastistics/>
+            </div>
+        );
+    }
+
 }

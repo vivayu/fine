@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { Balloon, Icon } from '@icedesign/base';
-import IceImg from '@icedesign/img';
+// import { Balloon, Icon } from '@icedesign/base';
+// import IceImg from '@icedesign/img';
 import Layout from '@icedesign/layout';
 import Menu from '@icedesign/menu';
 import FoundationSymbol from 'foundation-symbol';
@@ -10,6 +10,7 @@ import { headerNavs } from './../navs';
 import Logo from './Logo';
 
 export default class Header extends PureComponent {
+
   render() {
     const { width, theme, isMobile, className, style, ...others } = this.props;
 
@@ -55,7 +56,7 @@ export default class Header extends PureComponent {
 
           {/* Header 右侧内容块 */}
 
-          <Balloon
+          {/*<Balloon
             trigger={
               <div
                 className="ice-design-header-userpannel"
@@ -110,7 +111,8 @@ export default class Header extends PureComponent {
                 </Link>
               </li>
             </ul>
-          </Balloon>
+          </Balloon>*/}
+
         </div>
       </Layout.Header>
     );
