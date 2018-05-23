@@ -18,53 +18,17 @@ export default class FeatureList extends Component {
       <div style={styles.wrapper}>
         <div style={styles.contentWrapper}>
           <div style={styles.titleWrapper}>
-            <h3 style={styles.title}>设计语言</h3>
+            <h3 style={styles.title}>关于我们</h3>
             <div style={styles.titleLine}>
               <div style={styles.titleHighlightLine} />
             </div>
           </div>
           <p style={styles.desc}>
-            突破传统平台产品设计风格束缚，新的探索尝试，启发传统设计认知结合设计趋势，衍生全新平台产品设计语言
+              &nbsp;&nbsp;&nbsp;&nbsp;矫马润滑油脂(天津)有限公司是国际上大型跨国公司。系专业生产石油化工类产品，其产品的工矿设备用油和工程机械挖机用油早已享誉欧美各地。
           </p>
-          <div style={styles.featureListWrapper}>
-            <div style={styles.featureItem}>
-              <img
-                src="https://img.alicdn.com/tfs/TB1b7O4if5TBuNjSspmXXaDRVXa-172-170.png"
-                alt=""
-                style={{ width: 86, height: 85 }}
-              />
-              <h4 style={styles.featureTitle}>凸显内容</h4>
-              <p style={styles.featureDesc}>体现层次 弱化分割</p>
-            </div>
-            <div style={styles.featureItem}>
-              <img
-                src="https://img.alicdn.com/tfs/TB1PnOuik9WBuNjSspeXXaz5VXa-180-146.png"
-                alt=""
-                style={{ width: 90, height: 73 }}
-              />
-              <h4 style={styles.featureTitle}>视觉趋势</h4>
-              <p style={styles.featureDesc}>突出色彩 图像辅助</p>
-            </div>
-            <div style={styles.featureItem}>
-              <img
-                src="https://img.alicdn.com/tfs/TB1GUF9ibSYBuNjSspiXXXNzpXa-160-136.png"
-                alt=""
-                style={{ width: 80, height: 68 }}
-              />
-              <h4 style={styles.featureTitle}>模块兼容</h4>
-              <p style={styles.featureDesc}>模块结构 设计兼容</p>
-            </div>
-          </div>
-          <div style={styles.extraInfo}>
-            <Button
-              component="a"
-              href="#"
-              target="_blank"
-              style={styles.extraButton}
-            >
-              了解更多 &gt;
-            </Button>
-          </div>
+          <p style={styles.desc}>
+              &nbsp;&nbsp;&nbsp;&nbsp;在二十世纪初期，矫马润滑油脂(天津)有限公司的分公司已经遍布世界各地，行业涉及石油勘探、石油加工、天然气、矿业冶金、润滑油生产等等。产品在市场上得到了各大工程机械公司的认可。优质的产品受到业内的一致好评！天津矫马润滑油公司先后与多家科研机构联手打造高端润滑油，服务全球。 矫马润滑油脂(天津)有限公司自成立以来，专注于研发高端产品供消费者使用，以消费者的需求和权益为发展方向，日后将会更加努力为消费者服务，做良心产品，铸品牌辉煌。
+          </p>
         </div>
         <div style={styles.clipBackground} />
       </div>
@@ -76,7 +40,7 @@ const styles = {
   wrapper: {
     position: 'relative',
     overflow: 'hidden',
-    height: 690,
+    height: 480,
   },
   contentWrapper: {
     position: 'relative',
@@ -87,7 +51,7 @@ const styles = {
     alignItems: 'center',
   },
   titleWrapper: {
-    marginTop: 120,
+    marginTop: 50,
   },
   titleLine: {
     width: 140,
@@ -96,7 +60,7 @@ const styles = {
     background: '#EEEEEE',
     borderLeft: '2px solid ##5fb2f8',
   },
-  titleHighlightLine: {
+  titleHighlightLine: {// 下划线
     background: '#3080FE',
     height: 2,
     width: 33,
@@ -105,46 +69,15 @@ const styles = {
     color: '#223C4E',
     fontSize: 36,
   },
-  desc: {
+  desc: {// 描述字符
     color: '#6D7A82',
     fontSize: 16,
     lineHeight: 1.5,
     marginTop: 24,
-    width: 525,
-    textAlign: 'center',
+    width: 875,
+    textAlign: 'left',
   },
-  featureListWrapper: {
-    display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    marginTop: 60,
-    maxWidth: 960,
-    width: '100%',
-  },
-  featureItem: {
-    display: 'flex',
-    justifyContent: 'center',
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
-  featureTitle: {
-    marginTop: 35,
-    fontSize: 24,
-    color: '#333333',
-  },
-  featureDesc: {
-    fontSize: 14,
-    color: '#999999',
-    marginTop: 0,
-    marginBottom: 0,
-  },
-  extraButton: {
-    marginTop: 50,
-    borderColor: '#3080FE',
-    background: 'transparent',
-    color: '#3080FE',
-  },
-  clipBackground: {
+  clipBackground: {// 白色方片
     position: 'absolute',
     top: 0,
     left: 0,

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PriceCard from './components/PriceCard';
-import DataStatistics from './components/DataStatistics';
+import SimpleSlider from '../../components/SimpleSlider';
+import DetailTable from './components/DetailTable';
 
 export default class Contact extends Component {
   static displayName = 'Contact';
@@ -13,8 +13,8 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contact-page">
-        <PriceCard />
-        <DataStatistics />
+          <SimpleSlider />
+          <DetailTable />
       </div>
     );
   }

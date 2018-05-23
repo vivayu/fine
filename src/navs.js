@@ -1,11 +1,11 @@
 // <!-- auto generated navs start -->
 const autoGenHeaderNavs = [];
 const autoGenAsideNavs = [
-    {text: '产品', to: '/product', icon: 'nav-list'},
-    {text: '资讯', to: '/news', icon: 'nav-list'},
-    {text: '合作', to: '/cooperate', icon: 'nav-list'},
-    {text: '关于我们', to: '/about', icon: 'nav-list'},
-    {text: '联系我们', to: '/contact', icon: 'nav-list'},
+  { text: '产品', to: '/product', icon: 'nav-list' },
+  { text: '资讯', to: '/news', icon: 'nav-list' },
+  { text: '合作', to: '/cooperate', icon: 'nav-list' },
+  { text: '关于我们', to: '/about', icon: 'nav-list' },
+  { text: '联系我们', to: '/contact', icon: 'nav-list' },
 ];
 
 // <!-- auto generated navs end -->
