@@ -6,6 +6,7 @@ const autoGenAsideNavs = [
   { text: '合作', to: '/cooperate', icon: 'nav-list' },
   { text: '关于我们', to: '/about', icon: 'nav-list' },
   { text: '联系我们', to: '/contact', icon: 'nav-list' },
+  { text: 'ci4', to: '/ci4', icon: 'nav-list' },
 ];
 
 // <!-- auto generated navs end -->

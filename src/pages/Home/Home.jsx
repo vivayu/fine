@@ -18,7 +18,6 @@ export default class Home extends Component {
                 <SimpleSlider />
                 {/*<BasicTab/>*/}
                 <FeatureDisplay />
-                <UserTrafficStastistics/>
             </div>
         );
     }

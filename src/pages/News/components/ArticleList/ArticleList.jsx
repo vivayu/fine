@@ -28,22 +28,24 @@ export default class ArticleList extends Component {
     const dataSource = generatorData();
     return (
       <div className="article-list">
-        <IceContainer style={styles.articleFilterCard}>
-          <ul className="article-sort" style={styles.articleSort}>
-            <li style={styles.sortItem}>
-              最新 <Icon type="arrow-down" size="xs" />
-            </li>
-            <li style={styles.sortItem}>
-              最热 <Icon type="arrow-down" size="xs" />
-            </li>
-            <li style={styles.sortItem}>
-              距离截稿日期最近 <Icon type="arrow-down" size="xs" />
-            </li>
-            <li style={styles.sortItem}>
-              距离开始开启最近 <Icon type="arrow-down" size="xs" />
-            </li>
-          </ul>
-        </IceContainer>
+
+        {/*<IceContainer style={styles.articleFilterCard}>*/}
+          {/*<ul className="article-sort" style={styles.articleSort}>*/}
+            {/*<li style={styles.sortItem}>*/}
+              {/*最新 <Icon type="arrow-down" size="xs" />*/}
+            {/*</li>*/}
+            {/*<li style={styles.sortItem}>*/}
+              {/*最热 <Icon type="arrow-down" size="xs" />*/}
+            {/*</li>*/}
+            {/*<li style={styles.sortItem}>*/}
+              {/*距离截稿日期最近 <Icon type="arrow-down" size="xs" />*/}
+            {/*</li>*/}
+            {/*<li style={styles.sortItem}>*/}
+              {/*距离开始开启最近 <Icon type="arrow-down" size="xs" />*/}
+            {/*</li>*/}
+          {/*</ul>*/}
+        {/*</IceContainer>*/}
+
         <IceContainer>
           {dataSource.map((item, index) => {
             return (

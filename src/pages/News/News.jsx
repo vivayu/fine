@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SimpleSlider from '../../components/SimpleSlider';
-import InfoDisplayTab from './components/InfoDisplayTab';
 import ArticleList from './components/ArticleList';
 
 export default class News extends Component {
@@ -15,7 +14,6 @@ export default class News extends Component {
     return (
       <div className="news-page">
         <SimpleSlider />
-        <InfoDisplayTab />
         <ArticleList />
       </div>
     );

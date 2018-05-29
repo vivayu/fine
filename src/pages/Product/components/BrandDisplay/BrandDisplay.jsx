@@ -7,39 +7,57 @@ const { Row, Col } = Grid;
 
 const dataSource = [
   {
-    title: '飞利浦',
+    title: 'CI4',
     subject:
-      '一场内容营销活动获得超百万的进店点击，定位新广告的达人+积极迎接内容时代的品牌，如何刷新内容营销的定义？',
+      'CI-4采用合成动力柴油发动机油按照欧盟最新法规，针对大马力重载车辆的发动机工作特点而研制，选用新能源全新配方提供更强的发动机保护及清洁功效，令发动机使用寿命更长，即便在非常苛刻的环境下仍可提供最大的保护。',
     headPic:
       'https://img.alicdn.com/tfs/TB1QMwlSXXXXXaUXXXXXXXXXXXX-122-122.png',
     pic: 'https://img.alicdn.com/tfs/TB1n6H_SXXXXXc3XpXXXXXXXXXX-616-348.png',
-    url: 'https://alibaba.github.io/ice',
+    url: '#/ci4',
   },
   {
-    title: '万家乐',
+    title: 'CH4',
     subject:
-      '策划『生活改造家』主题全案，联合一线大咖制作图文、直播、短视频全域引流，助力品牌升级和高端人群种草，结合行业活动割草。',
+      'CH-4全工况柴油发动机油采用新能源配方，适用于涡轮增压及自然吸气式四冲程柴油发动机，以满足在重负荷、高速、高温等苛刻条件下运转的发动机润滑需要，用于需求使用API CH-4级油品的多种苛刻条件下操作的车辆及设备。',
     headPic: 'https://img.alicdn.com/tfs/TB1Z4CLSXXXXXcHXVXXXXXXXXXX-61-61.png',
     pic: 'https://img.alicdn.com/tfs/TB1bHO6SXXXXXaiXFXXXXXXXXXX-308-174.png',
-    url: 'https://alibaba.github.io/ice',
+    url: '#/ci4',
   },
   {
-    title: '职场游乐园',
-    subject: '2017年以“职场游乐园”为主题，全方位推动Lee牛仔专家与创新者形象。',
+    title: 'CF4',
+    subject: 'CF-4重负荷柴油发动机油选用优质精制基础油，针对各类卡车大马力新型发动机的工作特点调制，采用特强抗磨保护配方，令油压强大而稳定，能有效的减少发动机的磨损，从而延长发动机的使用寿命。',
     headPic:
       'https://img.alicdn.com/tfs/TB1kX62SXXXXXXJXVXXXXXXXXXX-122-122.png',
     pic: 'https://img.alicdn.com/tfs/TB17bzrSXXXXXbpaFXXXXXXXXXX-616-348.png',
-    url: 'https://alibaba.github.io/ice',
+    url: '#/ci4',
   },
   {
-    title: '品味百味人生',
+    title: 'X46',
     subject:
-      '吃货的世界你不懂，看着直播镜头里心仪的零食恨不得舔屏，从种草到剁手分分钟一气呵成。',
+      'X46、X68采用日本加氯精制基础油和高性能抗氧化剂、抗磨剂，油品在使用过程中，不易发生氧化劣化，粘度变化小，可以长时间使用，且具有优异的抗磨损性，能减少零部件磨损，能有效防止因少量水混入产生的故障，且能在金属表面形成吸附保护膜，防止生锈。',
     headPic:
       'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
     pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
-    url: 'https://alibaba.github.io/ice',
+    url: '#/ci4',
   },
+    {
+        title: 'GL-5',
+        subject:
+            'GL-5重负荷齿轮油选用优质精制基础油，针对各类卡车工程机械大马力新型发动机的工作特点调制，采用特强抗磨保护配方，令油压强大而稳定，能有效的减少齿轮的磨损，从而延长发动机的使用寿命。',
+        headPic:
+            'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
+        pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
+        url: '#/ci4',
+    },
+    {
+        title: '8#',
+        subject:
+            '8#高效液力传动油具有优良的抗磨性，防锈性及防腐性，优良的氧化安定性和热安定性，使油品在苛刻的运行条件下不易变质，良好的摩擦特性，降低传动损耗和变速冲击，良好的抗乳化性、抗泡性与密封材料相容性。',
+        headPic:
+            'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
+        pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
+        url: '#/ci4',
+    },
 ];
 
 export default class BrandDisplay extends Component {

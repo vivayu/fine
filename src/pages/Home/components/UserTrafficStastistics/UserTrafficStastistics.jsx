@@ -39,7 +39,7 @@ export default class UserTrafficStastistics extends Component {
       },
     };
     return (
-      <IceContainer title="访问用户类型分布">
+      <IceContainer title="机油性能分析">
         <div>
           <Chart
             height={300}
