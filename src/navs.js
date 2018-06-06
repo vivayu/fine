@@ -7,6 +7,11 @@ const autoGenAsideNavs = [
   { text: '关于我们', to: '/about', icon: 'nav-list' },
   { text: '联系我们', to: '/contact', icon: 'nav-list' },
   { text: 'ci4', to: '/ci4', icon: 'nav-list' },
+  { text: 'ch4', to: '/ch4', icon: 'nav-list' },
+  { text: 'cf4', to: '/cf4', icon: 'nav-list' },
+  { text: 'x46', to: '/x46', icon: 'nav-list' },
+  { text: 'gl5', to: '/gl5', icon: 'nav-list' },
+  { text: 'h8', to: '/h8', icon: 'nav-list' },
 ];
 
 // <!-- auto generated navs end -->

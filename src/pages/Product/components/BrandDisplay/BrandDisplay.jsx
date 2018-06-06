@@ -21,7 +21,7 @@ const dataSource = [
       'CH-4全工况柴油发动机油采用新能源配方，适用于涡轮增压及自然吸气式四冲程柴油发动机，以满足在重负荷、高速、高温等苛刻条件下运转的发动机润滑需要，用于需求使用API CH-4级油品的多种苛刻条件下操作的车辆及设备。',
     headPic: 'https://img.alicdn.com/tfs/TB1Z4CLSXXXXXcHXVXXXXXXXXXX-61-61.png',
     pic: 'https://img.alicdn.com/tfs/TB1bHO6SXXXXXaiXFXXXXXXXXXX-308-174.png',
-    url: '#/ci4',
+    url: '#/ch4',
   },
   {
     title: 'CF4',
@@ -29,7 +29,7 @@ const dataSource = [
     headPic:
       'https://img.alicdn.com/tfs/TB1kX62SXXXXXXJXVXXXXXXXXXX-122-122.png',
     pic: 'https://img.alicdn.com/tfs/TB17bzrSXXXXXbpaFXXXXXXXXXX-616-348.png',
-    url: '#/ci4',
+    url: '#/cf4',
   },
   {
     title: 'X46',
@@ -38,7 +38,7 @@ const dataSource = [
     headPic:
       'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
     pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
-    url: '#/ci4',
+    url: '#/x46',
   },
     {
         title: 'GL-5',
@@ -47,7 +47,7 @@ const dataSource = [
         headPic:
             'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
         pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
-        url: '#/ci4',
+        url: '#/gl5',
     },
     {
         title: '8#',
@@ -56,7 +56,7 @@ const dataSource = [
         headPic:
             'https://img.alicdn.com/tfs/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png',
         pic: 'https://img.alicdn.com/tfs/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png',
-        url: '#/ci4',
+        url: '#/h8',
     },
 ];
 
